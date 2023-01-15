@@ -1,7 +1,8 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import Form from "./components/Form";
 import "./App.css";
+import Table from "./components/Table";
+import Form from "./components/Form";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Form />
+      <Table />
     </div>
   );
 }

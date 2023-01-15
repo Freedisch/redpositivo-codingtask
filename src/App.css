@@ -4,3 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+button {
+  cursor: pointer;
+}
